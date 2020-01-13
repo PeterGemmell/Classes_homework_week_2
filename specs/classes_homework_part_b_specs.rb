@@ -6,5 +6,6 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 class TestSportsTeam < MiniTest::Test
 
-  
+  def setup
+  end
 end
